@@ -1,0 +1,26 @@
+{
+  "name": "glitch-list",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "airtable-plus": "^1.0.4",
+    "classnames": "^2.2.6",
+    "markdown-to-jsx": "^6.11.2",
+    "next": "9.4.1",
+    "react": "16.13.1",
+    "react-dom": "16.13.1",
+    "react-icons": "^3.10.0",
+    "swr": "^0.2.0"
+  },
+  "devDependencies": {
+    "babel-plugin-inline-react-svg": "^1.1.1",
+    "postcss-preset-env": "^6.7.0",
+    "prop-types": "^15.7.2",
+    "tailwindcss": "^1.4.6"
+  }
+}
