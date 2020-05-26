@@ -1,10 +1,13 @@
-// tailwind.config.js
 module.exports = {
-  purge: [
-    './pages/*.js',
-    './components/**/*.jsx'
-  ],
-  theme: {},
+  purge: [],
+  theme: {
+    fontFamily: {
+      'sans': ['ISO', '-apple-system', 'BlinkMacSystemFont'],
+    },
+    extend: {
+
+    },
+  },
   variants: {},
   plugins: [],
 }
