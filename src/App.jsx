@@ -26,10 +26,8 @@ export default function Home() {
 			const res = await fetch('https://talent-api.glitch.me/api');
 			res.json().then((res) => {
 				setData(res);
-				console.log(res);
 			});
 		}
-		console.log('Getting data');
 
 		fetchData();
 	});

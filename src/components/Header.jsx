@@ -2,7 +2,7 @@ import React from 'react';
 import Role from './Role';
 
 const Header = ({ roleList, filterRole, toggleFilterRole }) => (
-	<div id="home" className="p-4 pt-0 md:p-4">
+	<div id="home" className="p-4 pt-0 md:p-8 md:ml-8">
 		<div className="container mx-auto flex md:py-6 grid sm:grid-cols-1 md:grid-cols-2 gap-4 items-center">
 			<div className="md:border-r-2 justify-center" style={{ borderColor: '#5A78FF' }}>
 				<div className="pl-4 pr-8">
@@ -10,7 +10,7 @@ const Header = ({ roleList, filterRole, toggleFilterRole }) => (
 						Glitch alumni
 					</h1>
 					<h2 className="text-xl font-bold">
-						Each of these people would be the best hire your team can make.
+						Each of these people would be the best hire <br /> your team can make.
 					</h2>
 					<div className="my-2 mb-6">
 						<div className="flex md:block lg:flex lg:items-center flex-row md:flex-col lg:flex-row">

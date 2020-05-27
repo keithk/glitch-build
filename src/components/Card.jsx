@@ -1,6 +1,20 @@
 import React from 'react';
 import Icon from './Icon';
 
+function URLify(string) {
+	var urls = string.match(/(((https?):\/\/)[\-\w@:%_\+.~#?,&\/\/=]+)/g);
+	if (urls) {
+		urls.forEach(function (url) {
+			string = string.replace(url, '<a target="_blank" href="' + url + '">' + url + '</a>');
+		});
+	}
+	return string.replace('(', '<br/>(');
+}
+
+const description = (summary) => {
+	return { __html: URLify(summary) };
+};
+
 const Card = ({ record: { name, role, location, remote, github, twitter, linkedin, summary, personal } }) => {
 	return (
 		<div className="bg-white relative shadow overflow-hidden sm:rounded-lg hover:bg-glitch hover:shadow-xl shadow transition duration-500 ease-in-out">
@@ -42,7 +56,7 @@ const Card = ({ record: { name, role, location, remote, github, twitter, linkedi
 						)}
 					</div>
 
-					<div className="pt-6">{summary}</div>
+					<div className="pt-6" dangerouslySetInnerHTML={description(summary)}></div>
 				</div>
 			</div>
 		</div>
