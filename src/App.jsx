@@ -69,7 +69,7 @@ export default function Home() {
 							</div>
 							<div className="flex justify-end">
 								<a className="cursor-pointer" href={`#home`}>
-									<Icon className="text-white" name="up" />
+									<Icon name="up" />
 								</a>
 							</div>
 						</div>
