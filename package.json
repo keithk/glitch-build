@@ -28,6 +28,7 @@
     "markdown-to-jsx": "^6.11.4"
   },
   "dependencies": {
-    "fastify": "^2.14.1"
+    "fastify": "^2.14.1",
+    "fastify-static": "^3.0.0"
   }
 }
