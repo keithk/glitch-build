@@ -1,11 +1,14 @@
 {
   "scripts": {
-    "start": "snowpack dev",
+    "start": "node server.js",
     "build": "snowpack build",
     "test": "jest",
     "format": "prettier --write 'src/**/*.{js,jsx}'",
     "lint": "prettier --check 'src/**/*.{js,jsx}'",
     "prepare": "snowpack"
+  },
+  "engines": {
+    "node": "12"
   },
   "webDependencies": {},
   "devDependencies": {
@@ -25,10 +28,11 @@
     "snowpack": "^2.0.0-rc.8",
     "tailwindcss": "^1.4.6",
     "classnames": "^2.2.6",
-    "markdown-to-jsx": "^6.11.4"
+    "markdown-to-jsx": "^6.11.4",
+    "fastify": "^2.14.1",
+    "fastify-static": "^2.0.0"
   },
   "dependencies": {
-    "fastify": "^2.14.1",
-    "fastify-static": "^3.0.0"
+    "@snowpack/plugin-parcel": "^1.0.0"
   }
 }

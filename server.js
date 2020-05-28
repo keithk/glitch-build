@@ -4,12 +4,14 @@ const path = require('path')
 
 fastify.register(require('fastify-static'), {
   root: path.join(__dirname, 'build'),
+  prefix: '/', // optional: default '/'
 })
-
 
 fastify.get('/', function (req, reply) {
+  console.log("Trying this...");
   reply.sendFile('index.html') // serving path.join(__dirname, 'public', 'myHtml.html') directly
 })
+
 
 
 // Run the server!
