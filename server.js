@@ -1,5 +1,5 @@
 // Require the framework and instantiate it
-const fastify = require('fastify')({ logger: true })
+const fastify = require('fastify')({ logger: false })
 const path = require('path')
 
 // Create our server
