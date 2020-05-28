@@ -2,7 +2,6 @@
 	"scripts": {
 		"start": "node server.js",
 		"dev": "snowpack dev",
-		"prestart": "snowpack build",
 		"build": "snowpack build",
 		"test": "jest",
 		"format": "prettier --write 'src/**/*.{js,jsx}'",
