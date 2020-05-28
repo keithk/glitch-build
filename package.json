@@ -1,6 +1,6 @@
 {
 	"scripts": {
-		"start": "node server.js",
+		"start": "snowpack dev",
 		"prestart": "snowpack build",
 		"build": "snowpack build",
 		"test": "jest",
