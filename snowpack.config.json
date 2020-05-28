@@ -4,5 +4,6 @@
 	"installOptions": {},
 	"scripts": {
 		"build:css": "postcss"
-	}
+	},
+  "plugins": [["@snowpack/plugin-webpack"]]
 }

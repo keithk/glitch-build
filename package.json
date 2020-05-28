@@ -30,9 +30,9 @@
     "classnames": "^2.2.6",
     "markdown-to-jsx": "^6.11.4",
     "fastify": "^2.14.1",
-    "fastify-static": "^2.0.0"
+    "fastify-static": "^2.0.0",
+    "@snowpack/plugin-parcel": "^1.0.0"
   },
   "dependencies": {
-    "@snowpack/plugin-parcel": "^1.0.0"
   }
 }
