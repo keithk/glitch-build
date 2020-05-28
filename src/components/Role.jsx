@@ -14,7 +14,7 @@ const Role = ({ data, toggleFilterRole, filterRole }) => {
 		'transition duration-200 ease-in-out hover:bg-glitch'
 	);
 	return (
-		<a activeClass="active" href={`#${data.id}`}>
+		<a href={`#${data.id}`}>
 			<button className={className}>{data.name}</button>
 		</a>
 	);

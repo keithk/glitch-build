@@ -1,10 +1,8 @@
 {
 	"extends": "@snowpack/app-scripts-react",
-	"homepage": "",
+	"homepage": "talent/",
 	"installOptions": {},
 	"scripts": {
-		"build:css": "postcss",
-    "bundle:*": "@snowpack/plugin-webpack"
-	},
-  "plugins": [["@snowpack/plugin-webpack"]]
+		"build:css": "postcss"
+	}
 }
