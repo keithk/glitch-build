@@ -1,6 +1,6 @@
 {
 	"extends": "@snowpack/app-scripts-react",
-	"homepage": "talent/",
+	"homepage": "",
 	"installOptions": {},
 	"scripts": {
 		"build:css": "postcss",
