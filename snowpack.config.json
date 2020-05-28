@@ -5,5 +5,5 @@
 	"scripts": {
 		"build:css": "postcss"
 	},
-  "plugins": [["@snowpack/plugin-webpack"]]
+  "plugins": [["@snowpack/plugin-parcel"]]
 }

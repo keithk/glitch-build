@@ -3,7 +3,7 @@ import Header from "./components/Header";
 import Card from "./components/Card";
 import Icon from "./components/Icon";
 import "./styles.css";
-import { initialData } from "./data/airtable.js";
+// import { initialData } from "./data/airtable.js";
 
 const roles = [
   {
