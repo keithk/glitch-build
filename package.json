@@ -1,6 +1,6 @@
 {
 	"scripts": {
-		"start": "snowpack build && server node.js",
+		"start": "snowpack dev",
 		"prestart": "snowpack build",
 		"build": "snowpack build",
 		"test": "jest",
@@ -32,6 +32,6 @@
 		"tailwindcss": "^1.4.6",
 		"classnames": "^2.2.6",
 		"markdown-to-jsx": "^6.11.4",
-		"@snowpack/plugin-webpack": "^1.0.2"
+		"@snowpack/plugin-webpack": "^1.0.1"
 	}
 }
