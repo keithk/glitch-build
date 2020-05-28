@@ -1,6 +1,7 @@
 {
   "scripts": {
     "start": "node server.js",
+    "prestart": "snowpack build",
     "build": "snowpack build",
     "test": "jest",
     "format": "prettier --write 'src/**/*.{js,jsx}'",
@@ -17,7 +18,6 @@
     "fastify-static": "^2.0.0",
     "@fullhuman/postcss-purgecss": "^2.2.0",
     "@snowpack/app-scripts-react": "^1.0.0",
-    "@snowpack/plugin-parcel": "^1.0.0",
     "@testing-library/jest-dom": "^5.9.0",
     "@testing-library/react": "^10.0.3",
     "autoprefixer": "^9.8.0",

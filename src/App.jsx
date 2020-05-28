@@ -3,7 +3,7 @@ import Header from "./components/Header";
 import Card from "./components/Card";
 import Icon from "./components/Icon";
 import "./styles.css";
-// import { initialData } from "./data/airtable.js";
+import { initialData } from "./data/airtable.js";
 
 const roles = [
   {
@@ -23,7 +23,7 @@ const roles = [
 export default function Home() {
   const [data, setData] = useState([]);
   // Lets load our initial data
-  // setData(initialData);
+  setData(initialData);
   useEffect(() => {
     async function fetchData() {
       const res = await fetch("https://talent-api.glitch.me/api");

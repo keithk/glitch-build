@@ -1,14 +1,16 @@
 // Require the framework and instantiate it
-const fastify = require('fastify')({ logger: true })
+const fastify = require('fastify')({ logger: false })
 const path = require('path')
 
+
+// We're making our /build folder into our root
 fastify.register(require('fastify-static'), {
   root: path.join(__dirname, 'build'),
   prefix: '/', // optional: default '/'
 })
 
+// Lets serve those bundled files!
 fastify.get('/', function (req, reply) {
-  console.log("Trying this...");
   reply.sendFile('index.html') // serving path.join(__dirname, 'public', 'myHtml.html') directly
 })
 

@@ -1,7 +1,6 @@
 dependencies:
   '@fullhuman/postcss-purgecss': 2.2.0
   '@snowpack/app-scripts-react': 1.0.0
-  '@snowpack/plugin-parcel': 1.0.0
   '@snowpack/plugin-webpack': 1.0.2
   '@testing-library/jest-dom': 5.9.0
   '@testing-library/react': 10.0.4
@@ -2615,15 +2614,6 @@ packages:
     dev: false
     resolution:
       integrity: sha512-azuO6Vm8bJXSlCzqEQ5JM7uv+1FtirvDL7ITB5LXL+oPxQUw1D0cTXOJxP52FP/CPpW674qHhVlLbKre5ueg9g==
-  /@snowpack/plugin-parcel/1.0.0:
-    dependencies:
-      execa: 4.0.2
-      fs-extra: 9.0.0
-      npm-run-path: 4.0.1
-      parcel-bundler: 1.12.4
-    dev: false
-    resolution:
-      integrity: sha512-QyGJkWX79Xh5Sav7dXXv8zC82T0dKMcVSq1hHWUEF4nimb2pApuDHklAIWtAb8vpc9gZHvum8/13qwjWzFbNhg==
   /@snowpack/plugin-react-refresh/1.0.0:
     dependencies:
       react-refresh: 0.8.3
@@ -8257,74 +8247,6 @@ packages:
     dev: false
     resolution:
       integrity: sha512-P2vSmIu38uIlvdcU7fDkyrxj33gTUy/ABO5ZUbGowxNCopBq/OoD42bP4UmMrJoPyk4Uqf0mu3mtWBhHCZD8yg==
-  /parcel-bundler/1.12.4:
-    dependencies:
-      '@babel/code-frame': 7.10.1
-      '@babel/core': 7.10.1
-      '@babel/generator': 7.10.1
-      '@babel/parser': 7.10.1
-      '@babel/plugin-transform-flow-strip-types': /@babel/plugin-transform-flow-strip-types/7.10.1/@babel!core@7.10.1
-      '@babel/plugin-transform-modules-commonjs': /@babel/plugin-transform-modules-commonjs/7.10.1/@babel!core@7.10.1
-      '@babel/plugin-transform-react-jsx': /@babel/plugin-transform-react-jsx/7.10.1/@babel!core@7.10.1
-      '@babel/preset-env': /@babel/preset-env/7.10.1/@babel!core@7.10.1
-      '@babel/runtime': 7.10.1
-      '@babel/template': 7.10.1
-      '@babel/traverse': 7.10.1
-      '@babel/types': 7.10.1
-      '@iarna/toml': 2.2.5
-      '@parcel/fs': 1.11.0
-      '@parcel/logger': 1.11.1
-      '@parcel/utils': 1.11.0
-      '@parcel/watcher': 1.12.1
-      '@parcel/workers': 1.11.0
-      ansi-to-html: 0.6.14
-      babylon-walk: 1.0.2
-      browserslist: 4.12.0
-      chalk: 2.4.2
-      clone: 2.1.2
-      command-exists: 1.2.9
-      commander: 2.20.3
-      core-js: 2.6.11
-      cross-spawn: 6.0.5
-      css-modules-loader-core: 1.1.0
-      cssnano: 4.1.10
-      deasync: 0.1.20
-      dotenv: 5.0.1
-      dotenv-expand: 5.1.0
-      envinfo: 7.5.1
-      fast-glob: 2.2.7
-      filesize: 3.6.1
-      get-port: 3.2.0
-      htmlnano: 0.2.5
-      is-glob: 4.0.1
-      is-url: 1.2.4
-      js-yaml: 3.14.0
-      json5: 1.0.1
-      micromatch: 3.1.10
-      mkdirp: 0.5.5
-      node-forge: 0.7.6
-      node-libs-browser: 2.2.1
-      opn: 5.5.0
-      postcss: 7.0.31
-      postcss-value-parser: 3.3.1
-      posthtml: 0.11.6
-      posthtml-parser: 0.4.2
-      posthtml-render: 1.2.2
-      resolve: 1.17.0
-      semver: 5.7.1
-      serialize-to-js: 3.1.1
-      serve-static: 1.14.1
-      source-map: 0.6.1
-      terser: 3.17.0
-      v8-compile-cache: 2.1.0
-      ws: 5.2.2
-    dev: false
-    engines:
-      node: '>= 6.0.0'
-    hasBin: true
-    requiresBuild: true
-    resolution:
-      integrity: sha512-G+iZGGiPEXcRzw0fiRxWYCKxdt/F7l9a0xkiU4XbcVRJCSlBnioWEwJMutOCCpoQmaQtjB4RBHDGIHN85AIhLQ==
   /parcel/1.12.4:
     dependencies:
       '@babel/code-frame': 7.10.1
@@ -11427,7 +11349,6 @@ shrinkwrapVersion: 3
 specifiers:
   '@fullhuman/postcss-purgecss': ^2.2.0
   '@snowpack/app-scripts-react': ^1.0.0
-  '@snowpack/plugin-parcel': ^1.0.0
   '@snowpack/plugin-webpack': ^1.0.2
   '@testing-library/jest-dom': ^5.9.0
   '@testing-library/react': ^10.0.3
