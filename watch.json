@@ -7,9 +7,10 @@
   },
   "restart": {
     "include": [
-      "^\\.env$"
+      "^\\.env$",
+      "^backend/"
     ],
-    "exclude": ["^src/"]
+    "exclude": []
   },
   "noSavedEvents": true
 }

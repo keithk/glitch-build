@@ -47,7 +47,7 @@ export default function Home() {
 					/>
 				</a>
 			</div>
-			<Header key='header' roleList={roles} />
+			<Header roleList={roles} />
 			{roles.map((role) => {
 				const list = data.filter((d) => d.role === role.name);
 
