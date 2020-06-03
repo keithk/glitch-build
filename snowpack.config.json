@@ -7,8 +7,5 @@
     "bundle:*": "@snowpack/plugin-react-refresh",
 		"bundle:*": "@snowpack/plugin-webpack"
 	},
-  "devOptions": {
-    "out": "dist"
-  },
 	"plugins": ["@snowpack/plugin-webpack", "@snowpack/plugin-react-refresh"]
 }

@@ -5,7 +5,7 @@ const fs = require("fs");
 
 // Create our server
 fastify.register(require("fastify-static"), {
-  root: path.join(__dirname, "dist"),
+  root: path.join(__dirname, "build"),
   prefix: "/"
 });
 
