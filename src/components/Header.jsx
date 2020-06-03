@@ -33,7 +33,7 @@ const Header = ({ roleList, filterRole, toggleFilterRole }) => (
 				distancing started. If you’re looking to hire smart, caring, thoughtful new members for your team,
 				please reach out to them directly using their contact information below. If you have any questions or
 				require a reference, we are eager to help, just email{' '}
-				<a href="mailto:talent@glitch.com">talent@glitch.com</a> 🎉!!!!!
+				<a href="mailto:talent@glitch.com">talent@glitch.com</a> 
 			</div>
 		</div>
 	</div>
