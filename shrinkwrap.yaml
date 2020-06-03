@@ -2,6 +2,7 @@ dependencies:
   '@fullhuman/postcss-purgecss': 2.2.0
   '@snowpack/app-scripts-react': 1.0.0
   '@snowpack/plugin-parcel': 1.0.0
+  '@snowpack/plugin-react-refresh': 1.0.0
   '@snowpack/plugin-webpack': 1.0.2
   '@testing-library/jest-dom': 5.9.0
   '@testing-library/react': 10.0.4
@@ -11428,6 +11429,7 @@ specifiers:
   '@fullhuman/postcss-purgecss': ^2.2.0
   '@snowpack/app-scripts-react': ^1.0.0
   '@snowpack/plugin-parcel': ^1.0.0
+  '@snowpack/plugin-react-refresh': ^1.0.0
   '@snowpack/plugin-webpack': ^1.0.1
   '@testing-library/jest-dom': ^5.9.0
   '@testing-library/react': ^10.0.3
