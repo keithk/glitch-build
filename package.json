@@ -34,6 +34,7 @@
     "react-dom": "^16.13.1",
     "snowpack": "^2.0.2",
     "tailwindcss": "^1.4.6",
-    "@snowpack/plugin-react-refresh": "^1.0.0"
+    "@snowpack/plugin-react-refresh": "^1.0.0",
+    "http-proxy-middleware": "^1.0.4"
   }
 }
