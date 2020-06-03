@@ -1,4 +1,5 @@
 dependencies:
+  '@actions/exec': 1.0.4
   '@fullhuman/postcss-purgecss': 2.2.0
   '@snowpack/app-scripts-react': 1.1.0
   '@snowpack/plugin-parcel': 1.0.0
@@ -10,6 +11,7 @@ dependencies:
   classnames: 2.2.6
   fastify: 2.14.1
   fastify-static: 2.7.0
+  fs-extra: 9.0.0
   http-proxy-middleware: 1.0.4
   jest: 26.0.1
   markdown-to-jsx: 6.11.4
@@ -22,6 +24,16 @@ dependencies:
   snowpack: 2.2.2
   tailwindcss: 1.4.6
 packages:
+  /@actions/exec/1.0.4:
+    dependencies:
+      '@actions/io': 1.0.2
+    dev: false
+    resolution:
+      integrity: sha512-4DPChWow9yc9W3WqEbUj8Nr86xkpyE29ZzWjXucHItclLbEW6jr80Zx4nqv18QL6KK65+cifiQZXvnqgTV6oHw==
+  /@actions/io/1.0.2:
+    dev: false
+    resolution:
+      integrity: sha512-J8KuFqVPr3p6U8W93DOXlXW6zFvrQAJANdS+vw0YhusLIq+bszW8zmK2Fh1C2kDPX8FMvwIl1OUcFgvJoXLbAg==
   /@babel/code-frame/7.10.1:
     dependencies:
       '@babel/highlight': 7.10.1
@@ -11665,6 +11677,7 @@ registry: 'https://registry.npmjs.org/'
 shrinkwrapMinorVersion: 9
 shrinkwrapVersion: 3
 specifiers:
+  '@actions/exec': ^1.0.4
   '@fullhuman/postcss-purgecss': ^2.2.0
   '@snowpack/app-scripts-react': ^1.1.0
   '@snowpack/plugin-parcel': ^1.0.0
@@ -11676,6 +11689,7 @@ specifiers:
   classnames: ^2.2.6
   fastify: ^2.14.1
   fastify-static: ^2.0.0
+  fs-extra: ^9.0.0
   http-proxy-middleware: ^1.0.4
   jest: ^26.0.1
   markdown-to-jsx: ^6.11.4
