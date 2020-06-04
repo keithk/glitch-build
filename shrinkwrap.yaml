@@ -15,7 +15,6 @@ dependencies:
   fs-extra: 9.0.1
   http-proxy-middleware: 1.0.4
   jest: 26.0.1
-  markdown-to-jsx: 6.11.4
   parcel: 1.12.4
   postcss-cli: 7.1.1
   postcss-import: 12.0.1
@@ -8918,17 +8917,6 @@ packages:
       node: '>=0.10.0'
     resolution:
       integrity: sha1-7Nyo8TFE5mDxtb1B8S80edmN+48=
-  /markdown-to-jsx/6.11.4:
-    dependencies:
-      prop-types: 15.7.2
-      unquote: 1.1.1
-    dev: false
-    engines:
-      node: '>= 4'
-    peerDependencies:
-      react: '>= 0.14.0'
-    resolution:
-      integrity: sha512-3lRCD5Sh+tfA52iGgfs/XZiw33f7fFX9Bn55aNnVNUd2GzLDkOWyKYYD8Yju2B1Vn+feiEdgJs8T6Tg0xNokPw==
   /marked-terminal/3.3.0/marked@0.7.0:
     dependencies:
       ansi-escapes: 3.2.0
@@ -13646,7 +13634,6 @@ specifiers:
   fs-extra: ^9.0.1
   http-proxy-middleware: ^1.0.4
   jest: ^26.0.1
-  markdown-to-jsx: ^6.11.4
   parcel: ^1.12.4
   postcss-cli: ^7.1.1
   postcss-import: ^12.0.1
