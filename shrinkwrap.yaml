@@ -13653,5 +13653,5 @@ specifiers:
   prettier: ^2.0.5
   react: ^16.13.1
   react-dom: ^16.13.1
-  snowpack: ^2.2.4
+  snowpack: ^2.2.0
   tailwindcss: ^1.4.6
