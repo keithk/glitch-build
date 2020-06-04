@@ -7,33 +7,15 @@ const Header = ({ roleList, filterRole, toggleFilterRole }) => (
 			<div className="md:border-r-2 justify-center" style={{ borderColor: '#5A78FF' }}>
 				<div className="pl-4 pr-8">
 					<h1 className="inline text-3xl sm:text-4xl md:text-4xl lg:text-5xl xl:text-6xl font-extrabold tracking-wide leading-snug">
-						Glitch alumni
+						Title
 					</h1>
 					<h2 className="text-xl font-bold">
-						Each of these people would be the best hire <br /> your team can make!!!! Wheeeeee
+						A subtitle. 
 					</h2>
-					<div className="my-2 mb-6">
-						<div className="flex md:block lg:flex lg:items-center flex-row md:flex-col lg:flex-row">
-							<span className="hidden text-sm font-bold lg:block">Jump to</span>
-							{roleList.map((role) => (
-								<Role
-									key={role.id}
-									data={role}
-									toggleFilterRole={toggleFilterRole}
-									filterRole={filterRole}
-								/>
-							))}
-						</div>
-					</div>
 				</div>
 			</div>
 			<div className="pl-4 pb-8">
-				<strong>Glitch alums have skills and talents that lead the entire industry.</strong> Every one of them
-				has enabled teams to succeed while working remotely, with extensive experience from well before social
-				distancing started. If you’re looking to hire smart, caring, thoughtful new members for your team,
-				please reach out to them directly using their contact information below. If you have any questions or
-				require a reference, we are eager to help, just email{' '}
-				<a href="mailto:talent@glitch.com">talent@glitch.com</a>.
+				<strong>Bold leading thought, meant to make you feel.</strong> Followed by lots and lots of text explaining something, idk.
 			</div>
 		</div>
 	</div>
