@@ -26,7 +26,7 @@ export default function Home() {
 	useEffect(() => {
 		setData(initialData);
 		async function fetchData() {
-			const res = await fetch('https://airtable-api.glitch.me/api');
+			const res = await fetch('https://talent-api.glitch.me/api');
 			res.json().then((res) => {
 				setData(res);
 			});
